@@ -90,7 +90,14 @@ int main()
         printf("C");
     if (a<=59)
         printf("D");
-        
+   
+    int c;
+    scanf("%d",&c);
+    if (c>0) printf ("c是正數");
+    if (c<0) printf("c是負數");
+    if (c==0) printf("c等於0");
+    
+    
    
 }
 ```
