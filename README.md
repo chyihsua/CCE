@@ -107,6 +107,11 @@ int main()
     if (2) printf("2是成立的嗎？\n");
     if (3) printf("3是成立的嗎？\n");
 
-   
+   int d;
+   scanf("%d",&d);
+   if (d%2==0)
+   printf("even");
+   if (d%2==1)
+   printf("odd");
 }
 ```
